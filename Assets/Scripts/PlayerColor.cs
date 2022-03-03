@@ -16,7 +16,7 @@ public class PlayerColor : NetworkBehaviour
 
     private void UpdateView()
     {
-        art.material.color = IsRed ? Color.red : Color.green;
+        // art.material.color = IsRed ? Color.red : Color.green;
     }
 
     public override void Spawned()
